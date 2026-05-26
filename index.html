@@ -1,1 +1,51 @@
-<h1>hi</h1>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>كتالوج المعجنات</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #FAF4EE; direction: rtl; }
+  header { background: #2D1B0E; color: #F5C89A; text-align: center; padding: 24px; }
+  header h1 { font-size: 28px; margin-bottom: 4px; }
+  header p { color: #B8896A; font-size: 14px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 16px; padding: 20px; max-width: 800px; margin: 0 auto; }
+  .card { background: white; border-radius: 16px; padding: 16px; text-align: center; box-shadow: 0 2px 12px #0001; }
+  .emoji { font-size: 48px; margin-bottom: 8px; }
+  .card h3 { color: #2D1B0E; font-size: 15px; margin-bottom: 6px; }
+  .desc { color: #7A5A3A; font-size: 12px; margin-bottom: 10px; line-height: 1.5; }
+  .price { color: #C4742A; font-size: 17px; font-weight: bold; }
+  footer { text-align: center; padding: 20px; color: #B8896A; font-size: 12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🥐 كتالوج المعجنات</h1>
+  <p>اضغط على أي منتج لمعرفة التفاصيل</p>
+</header>
+<div class="grid">
+            <div class="card">
+                <div class="emoji">🥐</div>
+                <h3>توست</h3>
+                <p class="desc"></p>
+                <div class="price">١٬٢٠٠ د.ع</div>
+            </div>
+            
+            <div class="card">
+                <div class="emoji">🥐</div>
+                <h3>بيتزا</h3>
+                <p class="desc"></p>
+                <div class="price">٣٬٠٠٠ د.ع</div>
+            </div>
+            
+            <div class="card">
+                <div class="emoji">🥐</div>
+                <h3>كليجة</h3>
+                <p class="desc"></p>
+                <div class="price">٢٬٥٠٠ د.ع</div>
+            </div>
+            </div>
+<footer>آخر تحديث: ٢٧/٠٥/٢٠٢٦ ٠١:٢٢</footer>
+</body>
+</html>

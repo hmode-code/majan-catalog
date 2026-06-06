@@ -48,11 +48,18 @@
     <h1>🥐 كتالوج المعجنات</h1>
     <p>اضغط على أي منتج لمعرفة التفاصيل</p>
   </header>
-  <div class="grid"><div class="card" onclick="showDetail('15')">
+  <div class="grid"><div class="card" onclick="showDetail('16')">
+                <div class="img-wrap"><img src="https://i.imgur.com/ZRTPPne.jpeg" alt="دونت" onerror="this.style.display='none'"></div>
+                <div class="card-info">
+                    <h3>دونت</h3>
+                    <div class="pieces">24 قطعة</div>
+                    <div class="price">٢٬٠٠٠ د.ع</div>
+                </div>
+            </div><div class="card" onclick="showDetail('15')">
                 <div class="img-wrap"><img src="https://i.imgur.com/PLiwD2G.jpeg" alt="صمون بركر" onerror="this.style.display='none'"></div>
                 <div class="card-info">
                     <h3>صمون بركر</h3>
-                    
+                    <div class="pieces">6 قطعة</div>
                     <div class="price">١٬٢٠٠ د.ع</div>
                 </div>
             </div><div class="card" onclick="showDetail('12')">
@@ -77,7 +84,7 @@
                     <div class="price">٢٬٥٠٠ د.ع</div>
                 </div>
             </div></div>
-  <footer>آخر تحديث: ٠٦/٠٦/٢٠٢٦ ١٧:٥٠</footer>
+  <footer>آخر تحديث: ٠٦/٠٦/٢٠٢٦ ١٧:٥١</footer>
 </div>
 
 <!-- Detail page -->
@@ -96,10 +103,15 @@
 </div>
 
 <script>
-const products = { '15': {
+const products = { '16': {
+                name: "دونت",
+                price: "٢٬٠٠٠ د.ع",
+                pieces: "24 قطعة",
+                images: ["https://i.imgur.com/ZRTPPne.jpeg"]
+            },'15': {
                 name: "صمون بركر",
                 price: "١٬٢٠٠ د.ع",
-                pieces: "",
+                pieces: "6 قطعة",
                 images: ["https://i.imgur.com/PLiwD2G.jpeg"]
             },'12': {
                 name: "دينيماركي محشي                                       24 قطعة",
